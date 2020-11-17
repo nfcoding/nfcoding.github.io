@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/materialize.min.css">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="/assets/img/maskable_icon.png" />
+  <meta name="theme-color" content="#cdc9c3">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <title>Team Detail</title>
+</head>
+
+<body>
+
+  <!-- Navigasi -->
+  <nav class="deep-orange accent-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="./index.html#allTeam" class="brand-logo bold" id="logo-container">
+        <a href="#" class="brand-logo" id="logo-container">All About Footballs</a>
+      </a>
+      <a href="./index.html#allTeam" class="sidenav-trigger">
+        <i class="material-icons">arrow_back</i>
+      </a>
+
+      <a href="./index.html#allTeam" class="topnav right hide-on-med-and-down">
+        <i class="material-icons">arrow_back</i>
+      </a>
+
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+
+  <div class="container" id="team"></div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large deep-orange accent-1" id="save">
+      <i class="large material-icons">save</i>
+    </a>
+  </div>
+
+  <script src="/js/materialize.min.js"></script>
+  <script src="js/teamDetailScript.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/db.js"></script>
+</body>
+
+</html>
